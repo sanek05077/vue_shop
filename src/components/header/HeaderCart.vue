@@ -151,7 +151,7 @@ export default {
     font-weight: 600;
   }
 }
-@include media-breakpoint-up(sm) {
+@media (min-width: 576px) {
   .basket-block {
     width: 500px;
   }

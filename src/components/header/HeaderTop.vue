@@ -95,7 +95,7 @@ export default {
       background: $brand_color;
     }
   }
-  @include media-breakpoint-up(md) {
+  @media (min-width: 992px) {
     .check-language {
       position: relative;
       right: auto;

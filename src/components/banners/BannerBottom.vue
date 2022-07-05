@@ -36,7 +36,7 @@ export default {
     font-size: rem-calc(18);
   }
 }
-@include media-breakpoint-up(md) {
+@media (min-width: 992px) {
   .banner-bottom {
     padding: 2rem 1rem;
   }

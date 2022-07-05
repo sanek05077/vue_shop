@@ -125,7 +125,7 @@ export default {
       }
     }
   }
-  @include media-breakpoint-up(md) {
+  @media (min-width: 992px) {
     .header-bottom {
       padding: 1rem 0;
     }
@@ -143,7 +143,7 @@ export default {
       margin-top: rem-calc(10);
     }
   }
-  @include media-breakpoint-up(lg) {
+  @media (min-width: 1200px) {
     .contacts-block {
       strong {
         font-size: rem-calc(20);

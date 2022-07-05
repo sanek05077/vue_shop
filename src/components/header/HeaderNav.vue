@@ -28,7 +28,7 @@ export default {
     background: $secondary_color;
     padding: rem-calc(10 0);
   }
-  @include media-breakpoint-up(md) {
+  @media (min-width: 992px) {
     .navigation-section {
       padding: 0;
     }

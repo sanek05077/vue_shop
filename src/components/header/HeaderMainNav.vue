@@ -81,7 +81,7 @@ export default {
     }
   }
 }
-@include media-breakpoint-up(lg) {
+@media (min-width: 1200px) {
   .navbar-expand .navbar-nav .nav-link {
     padding: .75rem 1rem .875rem !important;
     font-size: .875rem;
